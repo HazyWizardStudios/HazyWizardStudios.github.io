@@ -29,6 +29,16 @@ h1 {
 }
 
 /* =================
+Images
+================= */
+
+img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* =================
 Layout
 ================= */
  
@@ -37,12 +47,15 @@ Layout
     margin: 0 auto;
     border: 1px solid magenta;
 }
-.container-nav{}
+
+.centered{
+    align-content: center;
+}
 
 header {
     text-align: center;
     background: #f8f8f8;
-    padding: 2em 0;
+    padding: 2em 0 0 0;
 }
 
 /* navigation */
@@ -55,7 +68,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 1em;
+    margin-left: 2em;
 }
 
 nav a {
@@ -78,10 +91,55 @@ nav a:focus {
     color: #707070;
 }
 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button-1 {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.button-1:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+.button-1:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+
 /* Small devices (landscape phones, 375px to 720)*/
 @media (min-width: 375px) and (max-width: 719px){
     .container{
         max-width: 320px;
+    }
+    .container-nav{
+        display: block;
+    }
+
+    nav li {
+        margin: 0 1em;
     }
 }
 
@@ -93,6 +151,10 @@ nav a:focus {
 
     .container-nav{
         display: block;
+    }
+
+    nav li {
+        margin: 0 1em;
     }
 }
 
@@ -123,8 +185,16 @@ nav a:focus {
         display:flex;
         justify-content: space-between;
     }
+}
 
-    nav li {
-        margin-left: 2em;
-    }
+/* =================
+IDs
+================= */
+
+#projects{
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
 }
