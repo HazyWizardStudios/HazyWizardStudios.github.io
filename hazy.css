@@ -262,12 +262,14 @@ Media Queries
     }
 
     .card{
-        max-width: 23%;
+        max-width: 24%;
+        margin: .5em auto;
         justify-content: space-between;
     }
 
     #projects{
         display:flex;
+        flex-wrap: nowrap;
     }
 }
 

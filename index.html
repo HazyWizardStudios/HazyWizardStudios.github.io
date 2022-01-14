@@ -13,8 +13,8 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#projectsHead">Projects</a></li>
+                    <li><a href="#contactHead">Contact</a></li>
                 </ul>
             </nav>
         </div> <!-- / .container -->
@@ -25,32 +25,32 @@
         </div>
 <!--Projects-->
         <div class="container">
-            <Div class=panel>
-                <H2>Projects</H2>
-                <div id="projectCards">
-                    <div class="card">
-                        <H3>Crown and Blood Ruleset</H3>
-                        <p>The Core of our games</p>
+            <Div class="panel">
+                <H2 id="projectsHead">Projects</H2>
+                    <div id="projectCards">
+                        <div class="card">
+                            <H3>Crown and Blood Ruleset</H3>
+                            <p>The Core of our games</p>
+                        </div>
+                        <div class="card">
+                            <H3>Meridian</H3>
+                            <p>A single player, story-focused RPG</p>
+                        </div>
+                        <div class="card">
+                            <H3>Multiplayer Game</H3>
+                            <p>Online play with different modes.</p>
+                        </div>
+                        <div class="card">
+                            <H3>VR Tabletop Sim</H3>
+                            <p>Our tabletop ruleset made into a full VR experience</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <H3>Meridian</H3>
-                        <p>A single player, story-focused RPG</p>
-                    </div>
-                    <div class="card">
-                        <H3>Multiplayer Game</H3>
-                        <p>Online play with different modes.</p>
-                    </div>
-                    <div class="card">
-                        <H3>VR Tabletop Sim</H3>
-                        <p>Our tabletop ruleset made into a full VR experience</p>
-                    </div>
-                </div>
             </Div>
-        </div>
+        </div><!-- / .container -->
 <!--Contact-->
         <div class="container" id="contact"> 
-            <div class=panel>
-                <h2>Contact</h2>
+            <div class="panel">
+                <h2 id="contactHead">Contact</h2>
                 <p>Send us an email</p>
                 <form action="mailto:hazywizardstudio@gmail.com" method="post" enctype="text/plain">
                     <input type="text" placeholder="Name" required name="Name"><br>
@@ -60,6 +60,6 @@
                     <button type="submit" class="button-1">Send</button>
                 </form>
             </div>
-        </div>
+        </div><!-- / .container -->
     </body>
 </html>
