@@ -17,16 +17,43 @@ h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #68500d;
     font-size: 2rem;
     margin: 0;
+    padding:1rem;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-top: .5em;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #cfcfcf;
+    font-size: 1rem;
+    padding-bottom:0.8rem;
 }
 
 .subtitle {
     font-weight: 700;
     color: #1792d2;
-    font-size: .75rem;
+    font-size: 1rem;
     margin: 0;
 }
+
 
 /* =================
 Images
@@ -45,7 +72,7 @@ Layout
 .container{
     width: 90%;
     margin: 0 auto;
-    border: 1px solid magenta;
+    /*border: 1px solid magenta;*/
 }
 
 .centered{
@@ -76,6 +103,8 @@ nav a {
     color: #707070;
     font-weight: 700;
     padding: .25em 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
 }
 
 nav a:hover,
@@ -105,8 +134,8 @@ input[type=text] {
   color: #3c4043;
   cursor: pointer;
   font-family: arial,sans-serif;
-  font-size: 14px;
-  height: 36px;
+  font-size: 1rem;
+  height: 2rem;
   line-height: 27px;
   min-width: 54px;
   padding: 0 16px;
@@ -128,6 +157,23 @@ input[type=text] {
   outline: none;
 }
 
+/* =================
+Panels and Cards
+================= */
+
+.panel{
+    background-color:#3c4043;
+    padding: 01em;
+    text-align: center;
+}
+
+.card{
+    background-color: #4285f4;
+}
+
+/* =================
+Media Queries
+================= */
 
 /* Small devices (landscape phones, 375px to 720)*/
 @media (min-width: 375px) and (max-width: 719px){
@@ -140,6 +186,14 @@ input[type=text] {
 
     nav li {
         margin: 0 1em;
+    }
+
+    .panel{
+        display:block;
+    }
+
+    .card{
+        max-width: 90%;
     }
 }
 
@@ -156,6 +210,16 @@ input[type=text] {
     nav li {
         margin: 0 1em;
     }
+
+    .card{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .panel{
+        display:block;
+    }
+
 }
 
 /* Large devices (desktops, 1024px to 1920)*/
@@ -172,6 +236,17 @@ input[type=text] {
     nav li {
         margin-left: 2em;
     }
+
+    .card{
+        width: 48%;
+        justify-content: space-between;
+        margin: .5em auto;
+    }
+
+    #projectCards{
+        display:flex;
+        flex-wrap: wrap;
+    }
 }
 
 /* Extra large devices (large desktops, 1920px and up)*/
@@ -184,6 +259,15 @@ input[type=text] {
     .container-nav{
         display:flex;
         justify-content: space-between;
+    }
+
+    .card{
+        max-width: 23%;
+        justify-content: space-between;
+    }
+
+    #projects{
+        display:flex;
     }
 }
 
