@@ -7,6 +7,25 @@ font-family: 'Ubuntu', sans-serif;
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    background-color: #e6c7c7;
+}
+
+/* =================
+Panels and Cards
+================= */
+
+.panel{
+    background-color:#27161c;
+    padding: 01em;
+    text-align: center;
+}
+
+.card{
+    background-color: #d8c7c0;
+    padding:0.2em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1rem;
 }
 
 /* =================
@@ -16,7 +35,7 @@ Typography
 h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
-    color: #143774;
+    color: #b28257;
     font-size: 3rem;
     margin: 0;
 }
@@ -24,7 +43,7 @@ h1 {
 h2 {
     font-family: 'Lora', serif;
     font-weight: 400;
-    color: #68500d;
+    color: #b28257;
     font-size: 2rem;
     margin: 0;
     padding:1rem;
@@ -33,7 +52,7 @@ h2 {
 h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
-    color: black;
+    color: #c44554;
     font-size: 1.5rem;
     margin: 0;
     padding-top: .5em;
@@ -42,14 +61,14 @@ h3 {
 p{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
-    color: #cfcfcf;
+    color: #27161c;
     font-size: 1rem;
     padding-bottom:0.8rem;
 }
 
 .subtitle {
     font-weight: 700;
-    color: #1792d2;
+    color: #b28257;
     font-size: 1rem;
     margin: 0;
 }
@@ -81,7 +100,7 @@ Layout
 
 header {
     text-align: center;
-    background: #f8f8f8;
+    background: #e6c7c7;
     padding: 2em 0 0 0;
 }
 
@@ -158,6 +177,7 @@ input[type=text] {
 }
 
 /* =================
+<<<<<<< Updated upstream
 Panels and Cards
 ================= */
 
@@ -172,6 +192,8 @@ Panels and Cards
 }
 
 /* =================
+=======
+>>>>>>> Stashed changes
 Media Queries
 ================= */
 
