@@ -2,6 +2,22 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="hazy.css">
+        <?php
+
+
+if($_POST["message"]) {
+
+
+mail("your@email.address", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
     </head>
     <body> 
 <!--Header-->
@@ -14,7 +30,7 @@
             <nav>
                 <ul>
                     <li><a href="#projectsHead">Projects</a></li>
-                    <li><a href="#contactHead">Contact</a></li>
+                    <li><a href="#discordHead">Discord</a></li>
                 </ul>
             </nav>
         </div> <!-- / .container -->
@@ -47,18 +63,13 @@
                     </div>
             </Div>
         </div><!-- / .container -->
-<!--Contact-->
-        <div class="container" id="contact"> 
+<!--discord-->
+        <div class="container" id="discord"> 
             <div class="panel">
-                <h2 id="contactHead">Contact</h2>
-                <p>Send us an email</p>
-                <form action="mailto:hazywizardstudio@gmail.com" method="post" enctype="text/plain">
-                    <input type="text" placeholder="Name" required name="Name"><br>
-                    <input type="text" placeholder="Email" required name="Email"><br>
-                    <input type="text" placeholder="Subject" required name="Subject"><br>
-                    <input type="text" placeholder="Message" required name="Message"><br>
-                    <button type="submit" class="button-1">Send</button>
-                </form>
+                <h2 id="discordHead">Check us out on Discord!</h2>
+                <p>Come join our server!</p>
+                
+                <iframe src="https://discord.com/widget?id=926975608066560010&theme=dark" width =60%, height=auto; min-width="350" min-height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </div>
         </div><!-- / .container -->
     </body>
