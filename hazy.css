@@ -57,6 +57,7 @@ iframe{
     max-width: 100%;
     width: 100%;
     height:1150px;
+    max: height 0.5vh;;
 }
 
 /* =================
@@ -64,9 +65,10 @@ Panels and Cards
 ================= */
 
 .panel{
-    background-color:#262219;
+    background-color:#3c4043;
     padding: 01em;
     text-align: center;
+    border: 2px solid black;
 }
 
 .card{
@@ -75,15 +77,6 @@ Panels and Cards
     margin-left:auto;
     margin-right:auto;
     margin-top:1rem;
-}
-
-.panel{
-    background-color:#3c4043;
-    padding: 01em;
-    text-align: center;
-}
-
-.card{
     border:4px solid #4285f4;
 }
 
@@ -213,15 +206,17 @@ nav a:active {
     color:white;
 }
 
-#dropDown {
+#mediaDropDown,
+#projectsDropDown {
     float: left;
     overflow: hidden;
     margin-top:-.5rem;
     margin-right: 1rem;
     font-size: 1.5rem;
 }
-  
-#dropDown #dropBtn {
+
+#mediaDropDown #mediaButton,
+#projectsDropDown #projectsButton {
     color: #DAD6D2;
     margin: 0;
     padding: .3em;
@@ -230,15 +225,23 @@ nav a:active {
     font-size: inherit;
     border: inherit;
     background-color: inherit;
+    cursor: pointer;
 }
 
-#dropDown #dropBtn:hover{
+#mediaDropDown #mediaButton:hover,
+#projectsDropDown #projectsButton:hover{
     color: #1792d2;
 }
 
-#dropDown #dropBtn:active {
+#mediaDropDown #mediaButton:active,
+#projectsDropDown #projectsButton:active {
     background-color: #1792d2;
     color:white;
+}
+
+#mediaDropDown:hover .dropdownContent,
+#projectsDropDown:hover .dropdownContent {
+    display: block;
 }
   
 .dropdownContent {
@@ -267,10 +270,6 @@ nav a:active {
 .dropdownContent a:active {
     background-color: #1792d2;
     color:white;
-}
-  
-#dropDown:hover .dropdownContent {
-    display: block;
 }
 
 #socialLinks{margin:.1rem;text-align: center;}
