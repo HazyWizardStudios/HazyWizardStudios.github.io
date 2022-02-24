@@ -1,6 +1,5 @@
-function changePage(newPage){console.log(newPage);jQuery("#bodyMain").html(`<object type="text/html" data=${newPage}></object>`);}
+function changePage(newPage){console.log(newPage);document.getElementById("bodyMain").innerHTML=`<object type="text/html" data=${newPage}></object>`;}
 
-$( document ).ready(function() {
-    console.log( "ready!" );
-    changePage("News.html")
-});
+window.addEventListener("load", function(){
+    changePage("News.html");
+  });
