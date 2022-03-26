@@ -20,13 +20,6 @@ html,body {
     background-color: #1B1613;
 }
 
-#bodyMain{
-    display:flex;
-    flex-direction: column;
-    max-height:100%;
-    max-width:100%;
-}
-
 #newsBody{
     box-sizing: border-box;
     height:880px;
@@ -46,7 +39,12 @@ header{
     margin:0 auto;
 }
 
-main{
+#bodyMain{
+    display:flex;
+    flex-direction: column;
+    height:80vh;
+    max-height:100%;
+    max-width:100%;
     grid-column:2;
     grid-row: 2;
 }
@@ -59,6 +57,8 @@ footer{
     display:flex;
     flex-direction:column;
     bottom:0;
+    position:absolute;
+    width:100%;
 }
 
 
