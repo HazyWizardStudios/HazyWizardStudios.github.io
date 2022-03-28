@@ -1,4 +1,4 @@
-function changePage(newPage){console.log(newPage);document.getElementById("bodyMain").innerHTML=`<object type="text/html" data=${newPage}></object>`;}
+function changePage(newPage){console.log(newPage);document.getElementById("bodyMain").innerHTML=`<object type="text/html" data=${newPage}></object>`;document.getElementsByClassName("dropdownContent").}
 
 window.addEventListener("load", function(){
     changePage("News.html");
@@ -7,7 +7,7 @@ window.addEventListener("load", function(){
 
   const discordH3 = document.getElementById("discord-h3");
   const youtubeH3 = document.getElementById("youtube-h3");
-  const instagramH3 = document.getElementById("insteagram-h3");
+  const instagramH3 = document.getElementById("instagram-h3");
 
   document.getElementById("discord-h3").addEventListener("click", function(){
     changePage("Discord.html");
