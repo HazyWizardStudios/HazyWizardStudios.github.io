@@ -292,6 +292,10 @@ nav a:active {
     color:white;
 }
 
+.burger{
+    display:none;
+}
+
 #socialLinks{margin:.1rem;text-align: center;}
 
 #copyRight{text-align: center;}
