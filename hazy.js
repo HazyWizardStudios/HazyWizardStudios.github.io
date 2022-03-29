@@ -2,7 +2,6 @@ function changePage(newPage){console.log(newPage);document.getElementById("bodyM
 
 window.addEventListener("load", function(){
     changePage("News.html");
-<<<<<<< HEAD
     console.log("page loaded");
   });
 
@@ -20,6 +19,4 @@ window.addEventListener("load", function(){
   
   instagramH3.addEventListener("click", function(){
     changePage("Instagram.html");
-=======
->>>>>>> parent of 46ba805 (adjusted heights)
   });
