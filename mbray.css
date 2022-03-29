@@ -42,7 +42,7 @@ header{
 #bodyMain{
     display:flex;
     flex-direction: column;
-    height:82vh;
+    height:80vh;
     max-height:100%;
     max-width:100%;
     grid-column:2;
