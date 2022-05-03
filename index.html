@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="hazy.js">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="hazy.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Hazy Wizard Studios</title>
@@ -22,7 +20,7 @@
             <nav>
                 <ul>
 <!--Projects Dropdown-->
-                    <div  class="notBurger" id="projectsDropDown">
+                    <div class="notBurger" id="projectsDropDown">
                         <button id="projectsButton" class="bigNav" onclick="javascript:changePage('Projects.html')">Projects</button>
                         <div class="dropdownContent">                            
                             <a id="crownButton" class="bigNav" href="javascript:changePage('CrownAndBlood.html')">Crown and Blood Ruleset</a>
@@ -33,7 +31,7 @@
                         </div>
                     </div>
 <!--Media Dropdown-->
-                    <div  class="notBurger" id="mediaDropDown">
+                    <div class="notBurger" id="mediaDropDown">
                         <button id="mediaButton" class="bigNav" onclick="javascript:changePage('Media.html')">Media</button>
                         <div class="dropdownContent">
                             <a class="bigNav" href="javascript:changePage('Discord.html')">Discord</a>
@@ -43,13 +41,18 @@
                     </div>
 <!--News and Hamburger Button-->
                     <li class="notBurger"><a id="newsButton" class="bigNav" href="javascript:changePage('News.html')">News</a></li>
-                    <li id="hamburger-button"><span class="material-icons">menu</menu></span></li>                    
+                    <li id="hamburger-button" onclick="javascript:toggleMenu()"><span class="material-icons">menu</menu></span></li>                    
                 </ul>
+                <div id="hamburgerMenu">
+                    <a id="projectsButtonBurger" class="bigNav" onclick="javascript:changePage('Projects.html')">Projects</a>
+                    <a id="mediaButtonBurger" class="bigNav" onclick="javascript:changePage('Media.html')">Media</a>
+                    <a id="newsButtonBurger" class="bigNav" href="javascript:changePage('News.html')">News</a>
+                </div>
             </nav>
         </div>
     </header>
 <!--Main-->
-    <main id="bodyMain">        
+    <main id="bodyMain">
     </main>
 <!--Footer-->
     <footer>
@@ -59,6 +62,8 @@
             <p>All rights reserved.</p>
             <p>Web Design by Skippy_zk</p>
         </div>       
-    </footer>    
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="hazy.js"></script>    
 </body>
 </html>

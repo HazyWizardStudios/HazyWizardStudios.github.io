@@ -1,10 +1,13 @@
 /*Font Imports*/
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Major+Mono+Display&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Modern+Antiqua&family=Nova+Cut&family=Nova+Flat&family=Tangerine:wght@400;700&display=swap');
 
-/*  Fonts
------
-font-family: 'Inconsolata', monospace;
-font-family: 'Major Mono Display', monospace;
+/*
+Fonts
+
+font-family: 'MedievalSharp', cursive;
+font-family: 'Modern Antiqua', cursive;
+font-family: 'Nova Cut', cursive;
+font-family: 'Nova Flat', cursive;
 font-family: 'Tangerine', cursive;
 */
 
@@ -17,7 +20,7 @@ font-family: 'Tangerine', cursive;
 
 html,body {
     box-sizing: border-box;
-    background-color: #1B1613;
+    background-color: #0B070D;
 }
 
 #newsBody{
@@ -35,7 +38,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
     border:2px solid black;
-    background: #3c4043;
+    background: #111;
     margin:0 auto;
 }
 
@@ -87,7 +90,7 @@ Panels and Cards
 ================= */
 
 .panel{
-    background-color:#3c4043;
+    background-color:#111;
     padding: 0.5rem;
     text-align: center;
     border: 2px solid black;
@@ -99,7 +102,7 @@ Panels and Cards
 }
 
 .card{
-    background-color: #4F4635;
+    background-color: #0B070D;
     padding:0.2em;
     margin-left:auto;
     margin-right:auto;
@@ -112,18 +115,18 @@ Typography
 ================= */
 
 h1 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'MedievalSharp', cursive;
     font-weight: 400;
-    color: #90DDEC;
+    color: #5C8DAD;
     font-size: 5rem;
     margin: 0;
     padding:.5rem;
 }
 
 h2 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Modern Antiqua', cursive;
     font-weight: 400;
-    color: #90DDEC;
+    color: #faa00f;
     font-size: 3rem;
     margin: 0;
     padding:1rem;
@@ -131,46 +134,46 @@ h2 {
 }
 
 h3 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Modern Antiqua', cursive;
     font-weight: 400;
-    color: #90DDEC;
+    color: #faa00f;
     font-size: 1.5rem;
     margin: 0;
     padding: .5em;
 }
 
 h3 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Modern Antiqua', cursive;
     font-weight: 400;
-    color: #90DDEC;
+    color: #faa00f;
     font-size: 1.5rem;
     margin: 0;
     padding: .5rem;
 }
 
 h4 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Modern Antiqua', cursive;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #90DDEC;
+    color: #faa00f;
     font-size: 1rem;
     margin: 0;
     padding: .5rem;
 }
 
 p{
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Nova Cut', cursive;
     font-weight: 400;
-    color: #DAD6D2;
+    color: #FEFAEB;
     font-size: 1rem;
     padding-bottom:0.8rem;
 }
 
 li{
     list-style: none;
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Nova Flat', cursive;
     font-weight: 400;
-    color: #DAD6D2;
+    color: #FEFAEB;
     font-size: .8rem;
 }
 
@@ -209,21 +212,21 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #DAD6D2;
+    color: #FEFAEB;
     font-weight: 900;
     padding: .25em 0;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Nova Flat', cursive;
     font-size: 1.5rem;
 }
 
 nav a:hover,
 nav a:focus {
-    color: #1792d2;
+    color: #FAA00F;
 }
 
 nav a:active {
-    background-color: #1792d2;
-    color:white;
+    background-color: #FAA00F;
+    color:#FEFAEB;
 }
 
 #mediaDropDown,
@@ -237,10 +240,10 @@ nav a:active {
 
 #mediaDropDown #mediaButton,
 #projectsDropDown #projectsButton {
-    color: #DAD6D2;
+    color: #FEFAEB;
     margin: 0;
     padding: .3em;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Nova Flat', cursive;
     font-weight: 900;
     font-size: inherit;
     border: inherit;
@@ -250,13 +253,13 @@ nav a:active {
 
 #mediaDropDown #mediaButton:hover,
 #projectsDropDown #projectsButton:hover{
-    color: #1792d2;
+    color: #FAA00F;
 }
 
 #mediaDropDown #mediaButton:active,
 #projectsDropDown #projectsButton:active {
-    background-color: #1792d2;
-    color:white;
+    background-color: #FAA00F;
+    color:#fefaeb;
 }
 
 #mediaDropDown:hover .dropdownContent,
@@ -267,7 +270,7 @@ nav a:active {
 .dropdownContent {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #FEFAEB;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -284,13 +287,34 @@ nav a:active {
 }
   
 .dropdownContent a:hover {
-    background-color: #ddd;
+    background-color: #FEFAEB;
 }
 
 .dropdownContent a:active {
-    background-color: #1792d2;
-    color:white;
+    background-color: #FAA00F;
+    color:#fefaeb;
 }
+
+#hamburgerMenu {
+    position: absolute;
+    background-color: #111;
+    width:100%;
+    height:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 6rem;
+  }
+
+  #hamburgerMenu a{
+    padding:24px;
+    font-size: 4rem;
+  }
+
 
 #socialLinks{margin:.1rem;text-align: center;}
 
@@ -303,7 +327,7 @@ IDs
 
 #titleText{
     font-family: 'Tangerine', cursive;
-    color:#1D84C0;
+    color:#5C8DAD;
 }
 
 #hamburger-button{
@@ -312,7 +336,7 @@ IDs
 
 #subtitleText {
     font-weight: 700;
-    color: #90DDEC;
+    color: #FAA00F;
     font-size: 1.5rem;
     margin: 0;
     margin-top:-1.5rem;
@@ -339,8 +363,7 @@ Media Queries
     #titleText{align-self: flex-start;}
     #subtitleText{display:none}
     #hamburger-button{display:block;margin:0 1rem;}
-    body{
-    }
+  
     main{
         height:70vh;
         max-height:70vh;

@@ -1,0 +1,295 @@
+[33mcommit ed55abcb8f787875a236bc1cfeed3db1677de313[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:25:46 2022 -0400
+
+    adf
+
+[33mcommit 51f5ca8ecdcfcf724fb55b05e714cf0ea5ca9ff3[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:21:54 2022 -0400
+
+    merge
+
+[33mcommit 80458d695b8471b663a2e399fece01c570ba0762[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:21:07 2022 -0400
+
+    aad
+
+[33mcommit 4293668add2eac7e9c880c3467a12a757fbf0b50[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:20:30 2022 -0400
+
+    Revert "aac"
+    
+    This reverts commit 772979fb32c2f37cec3eaf1c13ddde7f1175374e.
+
+[33mcommit 52a7b4076a11e7b23cb5ecd704e2ba3f473624b2[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:20:25 2022 -0400
+
+    Revert "aae"
+    
+    This reverts commit f75ad16ae95f9232fcea6d3f9acb75d8d55d6139.
+
+[33mcommit 1cb54317669e3d4c1e9f6ce728d0286e59a068a7[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:20:15 2022 -0400
+
+    Revert "aad"
+    
+    This reverts commit efe114826ca7c1a3cabe5d340967d17dc4a56a9e.
+
+[33mcommit efe114826ca7c1a3cabe5d340967d17dc4a56a9e[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:19:04 2022 -0400
+
+    aad
+
+[33mcommit f75ad16ae95f9232fcea6d3f9acb75d8d55d6139[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:18:11 2022 -0400
+
+    aae
+
+[33mcommit f923ec2ea513d1af3fab096e80b73ce1c7170b87[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:16:55 2022 -0400
+
+    aad
+
+[33mcommit 772979fb32c2f37cec3eaf1c13ddde7f1175374e[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:16:14 2022 -0400
+
+    aac
+
+[33mcommit 811978e49d9aed87b9a50ddc1ab1d1cd2ea49d71[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Mar 29 10:13:32 2022 -0400
+
+    asd
+
+[33mcommit 95bb4ca85065f8f0841bff75117f78bf152ca5ac[m
+Merge: 9c0aca5 1fbe062
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Mon Mar 28 11:18:29 2022 -0400
+
+    Merge branch 'main' of https://github.com/HazyWizardStudios/HazyWizardStudios.github.io
+
+[33mcommit 9c0aca5be803a9a1977965390efa212493075c6e[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Mon Mar 28 11:17:27 2022 -0400
+
+    aa
+
+[33mcommit 1fbe0623c71533945589af1d9457210a1e1a160f[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Mon Mar 28 09:34:17 2022 -0400
+
+    init
+
+[33mcommit 46ba80523c117fde790b2756d6f5b489e0e3a231[m[33m ([m[1;31morigin/backup2[m[33m, [m[1;32mbackup2[m[33m, [m[1;32mbackup[m[33m)[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Sun Mar 27 13:20:52 2022 -0400
+
+    adjusted heights
+
+[33mcommit 9acec78b4c003a749db5a06033fa9e85944094bf[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Sat Mar 26 18:19:47 2022 -0400
+
+    fixed height
+
+[33mcommit edbefabd5105bdd23df105502dd011357e6c0435[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Thu Feb 24 11:27:03 2022 -0500
+
+    news load, discord invite
+
+[33mcommit 44732ed892f14f14c4ad125660232aedea9e5b9c[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Thu Feb 24 10:42:16 2022 -0500
+
+    jquery
+
+[33mcommit fc21591333c7126c6031474fd4762a54eb101748[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Mon Feb 21 02:24:14 2022 -0500
+
+    aa
+
+[33mcommit 4e974ba3b5d11b6a5c2ea5f3ee7e4096241734ac[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Thu Feb 10 01:57:38 2022 -0500
+
+    1
+
+[33mcommit 0154dbe2e6e929c71a4aef279c199b220c7bbf7c[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Wed Feb 9 16:00:57 2022 -0500
+
+    one line of js
+
+[33mcommit 5007c1f9c6caa08ffd188beca7078703d512ce00[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Wed Feb 9 16:00:17 2022 -0500
+
+    q
+
+[33mcommit df5b5657a7c4806862e23d25985437e50d3ec700[m
+Merge: e4192e0 b85e664
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Wed Feb 9 16:00:07 2022 -0500
+
+    Merge branch 'Test'
+
+[33mcommit b85e66429c7b447ea10406b22897170bba757ee5[m[33m ([m[1;31morigin/Test[m[33m, [m[1;32mTest[m[33m)[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Wed Feb 9 15:45:49 2022 -0500
+
+    updated 2.8.22
+
+[33mcommit 43f1ee811929893a011796f1136b225eb3500f01[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Wed Feb 9 14:33:37 2022 -0500
+
+    ini
+
+[33mcommit 05a039873533ab20b2b1ba6620cc5811cf4e4783[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Wed Feb 9 14:18:42 2022 -0500
+
+    up
+
+[33mcommit 0786da9bd26e5aa91c866f1304dce085ff624cbd[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Feb 8 02:46:07 2022 -0500
+
+    update
+
+[33mcommit e4192e016590689f4c0d4ed73d806fbe73020476[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Thu Jan 20 02:42:52 2022 -0500
+
+    got 320x480 down
+
+[33mcommit cb4ef30cf791ecdcb953f3f076e5c3a00ae35244[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Wed Jan 19 13:52:36 2022 -0500
+
+    Create settings.json
+
+[33mcommit 27b3e4099d86170efc01d3e7a81ffae88ce5c09b[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Wed Jan 19 10:06:25 2022 -0500
+
+    font changes
+
+[33mcommit 0ef6c9ccbfa181c236251ed6993a9c1e6458a00d[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Jan 18 11:10:14 2022 -0500
+
+    tight
+
+[33mcommit 5e6b2a2a76a2b49df36576c02ba5a25216b87f47[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Tue Jan 18 10:51:31 2022 -0500
+
+    multipageDesign
+
+[33mcommit a117d924bb45e85444ad43694ecf3e7fc4970f2a[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Mon Jan 17 12:11:29 2022 -0500
+
+    changed contact to discord
+
+[33mcommit 160a2eb760769d96be1d089f581b2915db1e50ed[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Sat Jan 15 10:03:58 2022 -0500
+
+    Update hazy.css
+
+[33mcommit 38481cac481c110094ddcc272a15d8eed74c1867[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Fri Jan 14 12:24:15 2022 -0500
+
+    fixed card margins
+
+[33mcommit 1d519e99ab53dd4965c36d351bac397015dfc828[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Fri Jan 14 11:49:01 2022 -0500
+
+    fixed links
+
+[33mcommit dfbdcda9b1d2c8553ed0a86f356e707677594876[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Fri Jan 14 11:33:27 2022 -0500
+
+    finished
+
+[33mcommit df16b0c1dd5114449bca973c1e6e47e0a1fa0ebc[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Fri Jan 14 10:35:02 2022 -0500
+
+    first draft
+
+[33mcommit aff7aa181a7cc3c2b661010b08bbd4ae06ec8187[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Fri Jan 14 09:45:50 2022 -0500
+
+    update1
+
+[33mcommit 81c4b350ce999b34f2fb69272092aab3900548d8[m
+Author: James Clark <hazywizardstudio@gmail.com>
+Date:   Fri Jan 14 08:36:25 2022 -0500
+
+    init js.css
+
+[33mcommit 4b6577ba359507e446ed2a034024e12b214b7a33[m
+Author: Hazy Wizard Studio <96957786+HazyWizardStudios@users.noreply.github.com>
+Date:   Sat Jan 1 16:47:08 2022 -0500
+
+    Update index.html
+
+[33mcommit ec0586e4e0e6e029fef2982177b496a0659dc60f[m
+Author: Hazy Wizard Studio <96957786+HazyWizardStudios@users.noreply.github.com>
+Date:   Sat Jan 1 16:43:53 2022 -0500
+
+    Update index.html
+
+[33mcommit c59a752629e2a1cd09784f9bb2e42cac3cd9eb0b[m
+Author: Hazy Wizard Studio <96957786+HazyWizardStudios@users.noreply.github.com>
+Date:   Sat Jan 1 16:42:01 2022 -0500
+
+    Update index.html
+
+[33mcommit cfae731c8a8a9f32d89553791cd1fd777fd63513[m
+Author: Hazy Wizard Studio <96957786+HazyWizardStudios@users.noreply.github.com>
+Date:   Sat Jan 1 16:41:27 2022 -0500
+
+    Update index.html
+
+[33mcommit 8b46f62f0e9ed38b4661b68c7994c5b428d91aa5[m
+Author: Hazy Wizard Studio <96957786+HazyWizardStudios@users.noreply.github.com>
+Date:   Sat Jan 1 16:38:28 2022 -0500
+
+    Update index.html
+
+[33mcommit 5030703662ac8bdf645e5e0a7569628472e98b29[m
+Author: Hazy Wizard Studio <96957786+HazyWizardStudios@users.noreply.github.com>
+Date:   Sat Jan 1 16:36:02 2022 -0500
+
+    Update index.html
+
+[33mcommit 64dd889933d570c3b2d64332c926a1dffdf1e5e7[m
+Author: Hazy Wizard Studio <96957786+HazyWizardStudios@users.noreply.github.com>
+Date:   Sat Jan 1 16:31:33 2022 -0500
+
+    Create README.md
+
+[33mcommit fb958e20b90340c562f2b526b0a4d8ad48a76e5e[m
+Author: Hazy Wizard Studio <96957786+HazyWizardStudios@users.noreply.github.com>
+Date:   Sat Jan 1 16:17:02 2022 -0500
+
+    Create index.html
