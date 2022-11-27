@@ -199,6 +199,23 @@ Layout
 
 /* navigation */
 
+a:link{
+    color:pink;
+}
+
+a:visited{
+    color:pink;
+}
+
+a:hover{
+    color:orange;
+}
+
+a:active{
+    color:red;
+}
+
+
 nav ul {
     list-style: none;
     padding: 0;
