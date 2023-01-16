@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown and Blood Character Builder</title>
+    <link rel="stylesheet" type="text/css" href="builder.css">
+    <script src="builder.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="character-sheet">
+        <form id="character-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" maxlength="24">
+    
+          <label for="origin">Origin:</label>
+    <select id="origin" name="origin">
+        <option value="Freehold">Freehold</option>
+        <option value="Forest">Forest</option>
+        <option value="Lavosi">Lavosi</option>
+        <option value="Mages">Mages</option>
+        <option value="Outsider">Outsider</option>
+    </select>
+          
+            <label for="background">Background:</label>
+    <select id="background" name="background">
+        <option value="Athlete">Athlete</option>
+        <option value="Noble">Noble</option>
+        <option value="Outsider">Outsider</option>
+        <option value="Peasant">Peasant</option>
+        <option value="Scholar">Scholar</option>
+        <option value="Thief">Thief</option>
+    </select>      
+          
+            <label for="special">Trait:</label>
+    <select id="special" name="special">
+        <option value="Void-Touched">Void-Touched</option>
+        <option value="Elf=Blooded">Elf-Blooded</option>
+    </select>
+    
+            <label for="religion">Covenant:</label>
+    <select id="religion" name="religion">
+        <option value="None">None</option>
+        <option value="Dusk Covenant">Dusk Covenant</option>
+        <option value="Dawn Covenant">Dawn Covenant</option>
+        <option value="Dragon Covenant">Dragon Covenant</option>
+        <option value="Green Goblet Covenant">Green Goblet Covenant</option>
+        <option value="Cold Heart Covenant">Cold Heart Covenant</option>
+        <option value="Covenant of the Old Ways">Covenant of the Old Ways</option>
+        <option value="Mage Loyalist">Mage Loyalist</option>
+        <option value="Mutant Brotherhood">Mutant Brotherhood</option>
+        <option value="Eyes of Death">Eyes of Death</option>
+        <option value="Whisper Covenant">Whisper Covenant</option>
+        <option value="Mage Hunters">Mage Hunters</option>
+        <option value="Way of Grey">Way of Grey</option>
+    </select>
+          
+     <label for="class">Starting Class:</label>
+    <select id="class" name="class">
+        <option value="fighter">Fighter</option>
+        <option value="ranger">Ranger</option>
+        <option value="rogue">Rogue</option>
+        <option value="bard">Bard</option>
+        <option value="mage">Mage</option>
+        <option value="druid">Druid</option>
+        <option value="cleric">Cleric</option>
+        <option value="paladin">Paladin</option>
+    </select>
+          
+    <table>
+        <thead>
+            <tr>
+                <th>Stat</th>
+                <th>Value</th>
+                <th>Secondary Stat</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+      
+        <tbody>      
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Vitality</td>
+            <td id="vitality-Text">32</td>
+        </tr>
+          
+        <tr>
+            <td>Available Points:</td>
+            <td id="points">24</td>
+            <td>Prowess</td>
+            <td id="prowess-Text">32</td>
+        </tr>
+          
+      <tr>
+        <td></td>
+        <td></td>    
+        <td>Accuracy</td>
+        <td id="accuracy-Text">32</td>
+      </tr>
+          
+        <tr>
+            <td>Power:</td>
+             <td>
+                    <button type="button" class="up-button" data-stat="power">+</button>
+                    <span id="power">8</span>
+                    <button type="button" class="down-button" data-stat="power">-</button>
+                </td>
+        <td>Focus</td>
+        <td id="focus-Text">32</td>
+        </tr>
+          
+      <tr>
+        <td></td>
+        <td></td>    
+        <td>Willpower</td>
+        <td id="willpower-Text">32</td>
+      </tr>
+          
+        <tr>
+            <td>Endurance:</td>
+            <td>
+                    <button type="button" class="up-button" data-stat="endurance">+</button>
+                    <span id="endurance">8</span>
+                    <button type="button" class="down-button" data-stat="endurance">-</button>
+                </td>    
+        <td>Wit</td>
+        <td id="wit-Text">32</td>
+        </tr>
+          
+      <tr>
+        <td></td>
+        <td></td>    
+        <td>Resolve</td>
+        <td id="resolve-Text">32</td>
+      </tr>
+          
+        <tr>
+          <td>Agility:</td>
+            <td>
+                    <button type="button" class="up-button" data-stat="agility">+</button>
+                    <span id="agility">8</span>
+                    <button type="button" class="down-button" data-stat="agility">-</button>
+                </td>
+        <td>Faith</td>
+        <td id="faith-Text">32</td>
+        </tr>
+          
+      <tr>
+        <td></td>
+        <td></td>    
+        <td>Charisma</td>
+        <td id="charisma-Text">32</td>
+      </tr>
+          
+        <tr>      
+          <td>Ego:</td>
+            <td>
+                    <button type="button" class="up-button" data-stat="ego">+</button>
+                    <span id="ego">8</span>
+                    <button type="button" class="down-button" data-stat="ego">-</button>
+                </td>      
+        <td>Id</td>
+        <td id="id-Text">32</td>
+        </tr>
+          
+      <tr>
+        <td></td>
+        <td></td>    
+        <td>Ferocity</td>
+        <td id="ferocity-Text">32</td>
+      </tr>
+          
+        <tr>
+          <td>Empathy:</td>
+            <td>
+                    <button type="button" class="up-button" data-stat="empathy">+</button>
+                    <span id="empathy">8</span>
+                    <button type="button" class="down-button" data-stat="empathy">-</button>
+                </td>
+        <td>Conditioning</td>
+        <td id="conditioning-Text">32</td>
+        </tr>
+          
+      <tr>
+        <td></td>
+        <td></td>    
+        <td>Reflexes</td>
+        <td id="reflexes-Text">32</td>
+      </tr>
+          
+        <tr>
+            <td>Initiative:</td>
+            <td>
+                    <button type="button" class="up-button" data-stat="initiative">+</button>
+                    <span id="initiative">8</span>
+                    <button type="button" class="down-button" data-stat="initiative">-</button>
+                </td>
+        <td>Intelligence</td>
+        <td id="intelligence-Text">32</td>
+        </tr>  
+      <tr>
+        <td></td>
+        <td></td>    
+        <td>Perception</td>
+        <td id="perception-Text">32</td>
+      </tr>
+    </table>
+    <input type="submit" value="Generate PDF">
+        </form>
+    </div>
+
+
+    
+
+</body>
+
+</html>
