@@ -312,9 +312,8 @@ nav a:active {
     color:#fefaeb;
 }
 
-.burger{
-    /*display:none;*/
-}
+/*.burger{
+    display:none;}*/ 
 
 #socialLinks{margin:.1rem;text-align: center;}
 

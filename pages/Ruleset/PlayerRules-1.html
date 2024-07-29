@@ -6,25 +6,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="hazy.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="hazy.css">
+    <link rel="stylesheet" href="/hazy.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Hazy Wizard Studios</title>
 </head>
 <body id="playerRules-Body">
     <div id="playerRules-Div" class="panel">
 
-        <h2>Player Rules</h2>
+        <h2>Player Rules</h2><br>
+        <h3>Basics</h3>
 
         <div class="card">
-            <h3>Learn how to play</h3>
-            <p>Basic rules here</p>
-            <p>More Rules on this line</p>
+            <h3>Stats</h3>
+            <ul>
+                <li>Health<ul><li>A measure of how much punishment a character can take. If Health reaches 0, a character is knocked unconscious. If the attack or spell that downed them was a Critical Hit, that character dies outright and must be resurrected at a settlement. Unconscious characters revive upon resting or being healed.</li></ul></li>
+                <li>Stamina<ul><li> required for most actions, regenerates at 25% of total per round at the beginning of your turn. If you do not have the required stamina for an action, you cannot take it. If your stamina reaches 0, you are Vulnerable until the beginning of your next turn.</li></ul></li>
+                <li>Mana<ul><li>required for all spells and some skills. Does not naturally regenerate under normal circumstances without rest near a Leyline</li></ul></li>
+            </ul>
+        </div>
+        <h3>Gameplay</h3>
+        
+        <div class="card">
+            <h3>Combat</h3>
+            <p>One Round lasts approximately five to six seconds. Players, NPCs, and enemies take Turns in order of descending Initiative; one Round consists of one Turn for each entity in combat. In the case of a tie, an opposed roll or coin flip is made each combat where a tie is present. Each Turn follows this order:</p>
+            <ol>
+                <li>Mana, Stamina, and Health regeneration are applied.</li>
+                <li>Any “at start of turn” effects are applied.</li>
+                <li>A Basic Action or Full Action is declared and resolved.</li>
+                <li>If 3 was a Basic Action, a second Basic Action may be declared and resolved.</li>
+                <li>Any “at end of turn” effects are applied.</li>
+            </ol>
         </div>
         
         <div class="card">
-            <h3>Next Category!</h3>
-            <p>MOre rules in the next section</p>
+            <h3>Actions</h3>
+            <ul>
+                <li>Basic Actions include Movement, jumping, and basic attacks, as well as sheathing/unsheathing weapons, instant cast spells and skills, changing stances, or any other action that does not cost stamina. Dialogue does not consume any actions.</li>
+                <li>Movement: Move a maximum of 25ft (5 squares) per Basic Action expended, so long as you do not move away from any adjacent hostile entities. If two Movement actions are selected in a given turn, Stamina does not regenerate on the following turn (running). Movement also includes standing, sitting, or going prone, and costs no Stamina.</li>
+                <li>Dodge/Roll: On your turn, attempt to move through or away from an adjacent enemy-occupied square. Costs 25 Stamina.</li>
+                <li>Attack: Swing once with your main hand weapon. Builds 1 Momentum on hit or Glancing Blow. Making a Special Attack counts as using the Attack action.</li>
+                <li>Off Hand Attack: Swing once with your off hand weapon. Builds 1 Momentum on hit or Glancing Blow. You may also perform a Special Attack with your off hand weapon with this Basic Action.</li>
+                <li>Guard: Defend yourself against incoming attacks until the beginning of your next turn. May not be used with any other Basic Action besides Movement. If the Guard action is selected, Stamina does not regenerate on the following turn.</li>
+                <li>Spell: Cast an instant-cast spell.</li>
+                <li>Skill: Use an instant-cast skill.</li>
+                <li>Sheathe/Unsheathe: Draw or holster your weapons, or switch weapon sets.</li>
+                <li>Jump: Jump a distance equal to 1/20 of your Ferocity, so long as there are no enemies adjacent to you. Jump distance is halved in combat. Costs 25 Stamina.</li>
+                <li>Stance: Activate/Deactivate or change Stance.</li>
+            </ul>
         </div>
+
+        <div class="card">
+            <h3>Full Actions</h3>
+            <p>You may take two Basic Actions per turn, but they may not be the same action, and if one action is Guard, the other may only be Movement. A Full Action is any entire Combo Attack, Weapon Art, or spell/skill with a casting time of "1 turn" or "2 turns", and cannot be executed while moving unless otherwise stated.</p>
+            <ul>
+                <li>A cast time of 1 turn takes effect at the end of your turn, so long as you are not interrupted.</li>
+                <li>A cast time of 2 turns requires spending a full action to cast, and will take effect at the beginning of your next turn, unless you are interrupted. After the spell takes effect, you can move and act as normal on that turn.</li>
+                <li>You must declare what spell you are casting when you begin casting it, but you may choose targets for the spell when it takes effect.</li>
+            </ul>
+            <p>Spells and skills can be Interrupted by certain attacks and spells. There is no concentration or setback mechanic. Some such "interrupts" may be cast during an opponent's turn - casters beware!</p>
+            <p>Abilities that can Interrupt a spell or skill will contain the keyword "Interrupt" in the description. If an ability is interrupted, the Action, Mana, and Stamina used to cast it are lost, but the cooldown is not triggered (the caster may attempt to cast it again on their next turn). More details on Interrupt below.</p>
+            <p>Interrupt is also applied on Knocked Down, Silence (spells and certain verbal skills only), and Grapple.</p>
+        </div>
+
+        <div class="card">
+            <h3>Guard</h3>
+            <p>Guard is a Basic Action that represents raising your weapon or shield defensively at the cost of not taking any other action besides Movement that turn. While Guarding, your defenses (Reflex and Charisma) are raised by an amount depending on your current weapon loadout, and all incoming Stagger is reduced by 50%, but your Stamina does not regenerate on your next turn. There are 3 passive Feats (Shield Wall, Whirling Defense, and Energy Shield) with the "Guard" type keyword that enhance your Guard action, which are not mutually exclusive but strictly apply to specific gear loadouts. All qualifying Guard passives will always be applied. Guard and Parry are explored below in greater detail.</p>
+        </div>
+
+        <div class="card">
+            <h3>Combo Attacks</h3>
+            <p>Combo Attacks strike 2 or more times in a single turn and cost stamina and build 1 Momentum per swing. Each swing of a combo is rolled separately. It is the intent that for martially-inclined characters, Combo Attacks replace their basic attacks for most purposes.</p>
+        </div>
+
+        <div class="card">
+            <h3>Momentum</h3>
+            <p>Momentum is built by executing Combo Attacks, which build a point of Momentum on each strike, and basic attacks, which build one point of Momentum. Momentum is used to perform Special Attacks, and the amount of Momentum required to execute a Special Attack is equal to the ability level of the Special Attack. Certain Skills involve attacking with your weapon (such as Breach) but do not build Momentum. The maximum amount of Momentum you can have is 5, and you lose all Momentum when you are Knocked Down, Incapacitated, Blinded, Disarmed, or Vulnerable, or after three Turns. Momentum is expended when a Special Attack is made, whether or not the attack hits.</p>
+        </div>
+
+        <div class="card">
+            <h3>Dodge/Roll</h3>
+            <p>You can Dodge/Roll once per Round, during or outside of your turn, moving you to an unoccupied square and automatically avoiding any attack or spell that would have hit or targeted you that has been declared but not resolved. Dodging costs 25 Stamina and inflicts Interrupt on yourself. For dodge/roll to be effective against an AoE, the destination square must lie outside of the affected area. Your Dodge/Roll type (fast, medium, slow) is determined by your Armor.</p>
+            <ul>
+                <li>For out of turn dodges, If your armor allows a fast roll, you may dodge up to three squares (15') away, and act normally on your next turn.</li>
+                <li>If you medium roll, you may make any, but only one, basic action on your next turn, and you may only dodge a distance of two squares (10').</li>
+                <li>If you slow roll, you may only select the Movement action, and only once, on your next turn, and you may only dodge a distance of one square (5').</li>
+                <li>A fast or medium dodge/roll may be used to move through an enemy-occupied square as a Basic Action on your turn, also at the cost of 25 Stamina. Slow rolls cannot move through enemy-occupied squares.</li>
+            </ul>
+            <p>If a dodge is made outside of your turn, it is resolved and rolled as if it were made on your next turn, and you count as if you were “in range” for attack range purposes. Outside-of-turn dodges apply an immediate, uninterruptable stacking Stagger debuff to yourself, until your turn ends, if you are hit with an attack/spell.</p>
+        </div>
+        
+        <div class="card">
+            <h3>Knocked Down</h3>
+            <p>Knocked Down is a status applied when your Stamina reaches 0 and you are hit by an attack or spell. Knocked Down creatures must stand as their first Basic Action, have the Stagger debuff applied for 1 Turn, and lose 25% of their remaining Stamina on the turn they stand back up. If the effect was applied during a Full Action, the action is interrupted, the action and all resource costs are lost, but cooldown is not triggered.</p>
+        </div>
+
+        <div class="card">
+            <h3>Vulnerable</h3>
+            <p>Vulnerable is a status applied when your Stamina reaches 0, and persists until the beginning of your next turn. While Vulnerable, all attacks against you are made at +10 accuracy, you cannot Guard, Parry, or Dodge, and have 1 less Basic Action per turn. If you become Vulnerable while taking a Full Action, it is interrupted, the action and all resource costs are lost, but cooldown is not triggered.</p>
+        </div>
+
+        <div class="card">
+            <h3>Critical Hit</h3>
+            <p>A Critical Hit happens when an attack lands on a roll of 19-20, with an additional roll on a second d20. A natural 20 on the second roll kills the target instantly if possible. Otherwise, it causes the attack to deal double damage. Some spells and abilities will have effects if they critically hit (such as dealing damage twice, or dealing quadruple damage, etc.), with the extra effect always applying if the target has less than 50% of their total HP remaining. Critical Hits made against targets that are in the process of resolving a Full Action or are Vulnerable will interrupt them, but not on a roll of 20 alone.</p>
+        </div>
+        
+        <div class="card">
+            <h3>Glancing Blow</h3>
+            <p>A Glancing Blow happens when an attack hits, but on a roll of 1 on a second d20, the target takes half damage and no other special effects of the attack take place. A Glancing Blow may not critically hit or interrupt an opponent.</p>
+        </div>
+
+        <div class="card">
+            <h3>Parry</h3>
+            <p>Parry is a reaction ability that may be executed only when the attacker makes their roll against your Reflexes. A successful Parry negates the attack, and certain Parry abilities will apply status effects, or may only be made against certain attacks. A Parry is always a d20 roll modified by your Reflexes, against the attacker’s d20 roll + Accuracy modifiers. If the roll is a tie, the Parry attempt fails. Your Parry ability is determined by your Main Hand weapon. The Parry ability is not available to any characters wielding a 2-handed weapon, dual wielding, or wearing more than 15 points of Armor. Parry cannot be used on abilities that would cause the Knocked Down status effect, or while Knocked Down or Vulnerable.</p>
+        </div>
+
+        <div class="card">
+            <h3>Special Attacks</h3>
+            <p>Special Attacks are learned by spending Ability Points in specific skill trees and will have different effects based on the weapon you are wielding. Special Attacks use Stamina and consume Momentum, and require a specific ability score, skill level, and weapon type. Special Attacks cannot be used while Vulnerable or Knocked Down, but will Interrupt Full Actions if executed while casting. Special Attacks may involve attacking with your weapon (such as Breach), and may still require targeting rolls to hit.</p>
+        </div>
+        
+        <div class="card">
+            <h3>Feats</h3>
+            <p>Feats are passive abilities acquired by spending Ability Points. A feat applies when the prerequisites for the feat are met (e.g., specific weapon equipped, specific stance, etc.). Some feats have multiple levels, increasing in effectiveness with each level acquired. Feats with the "Guard" type keyword apply passively when you use the Guard action.</p>
+        </div>
+
+        <div class="card">
+            <h3>Skills</h3>
+            <p>Skills are active abilities acquired by spending Ability Points in specific skill trees. Skills require Mana and may have a casting time, range, and other conditions. Some skills can be cast during an opponent's turn (Interrupt skills). The effects of skills vary widely, including healing, buffs, debuffs, damage, crowd control, and more.</p>
+        </div>
+
+        <div class="card">
+            <h3>Spells</h3>
+            <p>Spells are similar to skills but often require more Mana and have more significant effects. Spells can have different casting times, from instant to multi-turn, and may include effects like elemental damage, healing, summoning, or altering the environment. Spells can also be interrupted and are subject to the same casting rules as skills.</p>
+        </div>
+
+        <div class="card">
+            <h3>Interrupt</h3>
+            <p>Interrupts are abilities or effects that can disrupt an opponent's spell or skill casting, Full Action, or other significant actions. Interrupts are triggered by certain conditions, such as taking damage, being hit by a specific type of attack, or failing a saving throw. Interrupts prevent the interrupted action from completing, often wasting resources but without triggering cooldowns. Abilities and spells that can Interrupt will explicitly state so in their descriptions.</p>
+        </div>
+
     </div>
 </body>
 </html>
